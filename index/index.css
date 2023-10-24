@@ -1,0 +1,127 @@
+.title_box{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+    position: relative;
+    
+}
+.name_box{
+    position: inherit;
+    /* font-size: 100vw; */
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@media screen and (min-width: 994px) {
+    
+    .member_box{
+        display: flex;
+    }
+    .member1_box{
+        position: relative;
+        width: 14.2%;
+        height: max-content;
+        background-color: red;
+    }
+    .member2_box{
+        position: relative;
+        width: 14.2%;
+        height: max-content;
+        background-color: orange;
+    }
+    .member3_box{
+        position: relative;
+        width: 14.2%;
+        height: max-content;
+        background-color: yellow;
+    }
+    .member4_box{
+        position: relative;
+        width: 14.2%;
+        height: max-content;
+        background-color: green;
+    }
+    .member5_box{
+        position: relative;
+        width: 14.2%;
+        height: max-content;
+        background-color: lightblue;
+    }
+    .member6_box{
+        position: relative;
+        width: 14.2%;
+        height: max-content;
+        background-color: blue;
+    }
+    .member7_box{
+        position: relative;
+        width: 14.2%;
+        height: max-content;
+        background-color: purple;
+    }
+
+    .fullbody_pict{
+        width: 100%;
+        height: 444px;
+    }
+}
+
+
+@media screen and (max-width: 994px) {
+
+    .member_box{
+        display: block;
+    }
+    .member_content{
+        display: flex;
+    }
+    .member1_box{
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        background-color: red;
+    }
+    .member2_box{
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        background-color: orange;
+    }
+    .member3_box{
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        background-color: yellow;
+    }
+    .member4_box{
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        background-color: green;
+    }
+    .member5_box{
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        background-color: lightblue;
+    }
+    .member6_box{
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        background-color: blue;
+    }
+    .member7_box{
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        background-color: purple;
+    }
+    .fullbody_pict{
+        width: auto;
+        height: auto;
+    }
+
+}
